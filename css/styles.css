@@ -1,0 +1,136 @@
+.textoGrande{
+    color: black;
+}
+*{
+    margin: 0,1%;
+    padding: 0,2%;
+}
+.img-uno {
+background-image: url(../image/camarespaldo1.jpg);
+}
+.img-dos {
+    background-image: url(../image/respaldo\ luxury\ pana111.jpg);
+}
+.img-tres {
+    background-image: url(../image/respaldo\ 11.jpg);
+}
+.img-cutro{
+    background-image: url(../image/camarespaldo1.jpg);
+}
+.img-cinco{
+    background-image: url(../image/respaldo\ el\ rey\ pana\ tachas.jpg);
+}
+.img-seis{
+    background-image: url(../image/respaldo\ cuero\ tex.jpg);
+}
+.BordesRedondeados{
+    image-rendering: auto;
+}
+
+body{
+    background-color: dimgrey;
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    color: rgb(19, 1, 5);
+}
+#familia{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.textoAzul{
+    color: blue;
+}
+.textoGrande{
+    font-size: 25px;
+}
+.subrayado {
+    text-decoration: none;
+}
+div {
+border-top-color: black;
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 30rem;
+    max-width: 100;
+    position: relative;
+}
+.cama__respaldo{
+    border-radius: 15px;
+    height: 30rem;
+    max-width: 100;
+    background-size: cover;
+    position: relative;
+    
+}
+.mesaratonera__mesa{
+
+border-radius: 15px;
+}
+.color__color{
+    border-radius: 15px;
+    object-fit: cover;
+    max-width: 100;
+}
+.pana__pana{
+    border-radius: 15px;
+    object-fit: cover;
+    max-width: 100;
+}
+.cuero__cuero{
+    border-radius: 15px;
+    object-fit: cover;
+    max-width: 100;
+}
+.mesaratonera__mesa{
+    width: 400px;
+    border: solid 1px red;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 10px;
+}
+.mesaratoneta__mesa1{
+    width: 100%;
+}
+.texto__mesa{
+    text-align: justify;
+}
+.menu__principio{
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: orangered;
+    color: black;
+    padding: 1px;
+    display: inline-block;
+    
+}
+.menu__principiodos{
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    padding: 1px;
+    display: inline-block;
+}
+.nav__menu{
+    list-style: none;
+    font-size: 0;
+}
+.nav__menu2{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+}
+.quienes__somos{
+    text-decoration: dotted;
+}

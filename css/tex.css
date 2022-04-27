@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #ededed
+
+}
+.home {
+display: flex;
+flex-wrap: wrap;
+}
+.int-flex{
+    flex: 1;
+    min-width: 250;
+
+}    
+.int-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: rgb(238, 155, 99);
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.int-flex div {
+    padding: 25px;
+    background-color: rgb(238, 155, 99);
+    margin: 20px;
+}
+.principio {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .texto{
+        flex: 1;
+        min-width: 250;
+    
+    }    
+    .texto:first-child{
+        flex: 2;
+        padding: 45px;
+        background-color: rgb(163, 226, 138);
+        margin: 30px;
+        margin-bottom: 50px;
+    }
+    .texto div {
+        padding: 45px;
+        background-color: rgb(163, 226, 150);
+        margin: 30px;
+        margin-bottom: 50px;
+    }
+    .tabla{
+        padding: 30px;
+        margin-bottom: 50px;
+        background-color: rgb(241, 187, 187);
+        margin: 25px;
+        font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ecocuero{
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: rgb(202, 164, 118);
+        margin: 10px;
+        font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-width: 250px;
+    }
+    .span{
+        padding: 20px;
+        margin-bottom: 20px;
+        margin: 15px;
+        font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-width: 250px;
+
+    }
+    .puntos{
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(209, 195, 192);
+        margin: 10px;
+        min-width: 250px;
+
+    }
+    .final{
+    padding: 25px;
+    background-color: rgb(247, 243, 240);
+    margin: 10px;
+    margin-bottom: 0px;
+    }
