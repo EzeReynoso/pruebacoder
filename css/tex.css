@@ -82,8 +82,11 @@ flex-wrap: wrap;
 
     }
     .final{
+    display: flex;
     padding: 25px;
-    background-color: rgb(247, 243, 240);
+    background-color: rgb(221, 164, 120);
     margin: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
+    align-content: center;
+    margin-right: 10px;
     }
