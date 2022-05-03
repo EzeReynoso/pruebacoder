@@ -28,11 +28,11 @@ background-image: url(../image/camarespaldo1.jpg);
 }
 
 body{
-    background-color: dimgrey;
+    background-image: linear-gradient(to left bottom, rgb(155, 172, 228),rgb(230, 106, 235),rgb(218, 190, 190), rgb(161, 118, 103));
     font-family: 'Dancing Script', cursive;
 }
 p{
-    color: rgb(19, 1, 5);
+    color: rgb(4, 1, 19);
 }
 #familia{
     font-family: Arial, Helvetica, sans-serif;
@@ -70,6 +70,7 @@ border-top-color: black;
     position: relative;
     
 }
+
 .mesaratonera__mesa{
 
 border-radius: 15px;
@@ -88,6 +89,11 @@ border-radius: 15px;
     border-radius: 15px;
     object-fit: cover;
     max-width: 100;
+    transition: all 5s;
+}
+.cuero__cuero:hover{
+    transform: scaleY(1.2);
+    width: 490px;
 }
 .mesaratonera__mesa{
     width: 400px;
@@ -111,7 +117,13 @@ border-radius: 15px;
     color: black;
     padding: 1px;
     display: inline-block;
+    transition: transform 3s; width: 4s;
     
+}
+.menu__principio:hover{
+    transform: scaleX(2);
+   
+
 }
 .menu__principiodos{
     text-decoration: none;
@@ -120,6 +132,7 @@ border-radius: 15px;
     color: white;
     padding: 1px;
     display: inline-block;
+
 }
 .nav__menu{
     list-style: none;
@@ -133,4 +146,32 @@ border-radius: 15px;
 }
 .quienes__somos{
     text-decoration: dotted;
+}
+.respaldoss{
+    width: 450px;
+    height: 250px;
+    border: solid 1px black;
+    background-image: url(../image/reyno\ muebles\ 12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.p1:hover ~ .respaldoss{
+    background-image: url(../image/respaldo\ multicapitone\ angus.jpg);
+    
+}
+.p2:hover ~ .respaldoss{
+    background-image: url(../image/respaldo\ pana\ 2.jpg);
+}
+.p3:hover ~ .respaldoss{
+    background-image: url(../image/respaldo\ cuero\ tex.jpg);
+}
+.hoverExample{
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgb(230, 221, 174);
+    color: white;
+    padding: 1px;
+    display: inline-block;
+
 }

@@ -56,6 +56,12 @@ flex-wrap: wrap;
         background-color: rgb(241, 187, 187);
         margin: 25px;
         font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: transform 2s; width: 2s;
+        
+    }
+    .tabla:hover{
+        transform: scaleX(1);
+        width: 20px;
     }
     .ecocuero{
         padding: 10px;
@@ -90,3 +96,4 @@ flex-wrap: wrap;
     align-content: center;
     margin-right: 10px;
     }
+  
