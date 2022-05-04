@@ -166,6 +166,12 @@ border-radius: 15px;
 .p3:hover ~ .respaldoss{
     background-image: url(../image/respaldo\ cuero\ tex.jpg);
 }
+.p4:hover ~ .respaldoss{
+    background-image: url(../image/respaldo\ el\ rey\ angus\ 2.jpg);
+}
+.p5:hover ~ .respaldoss{
+    background-image: url(../image/respaldo\ el\ rey\ pana\ tachas.jpg);
+}
 .hoverExample{
     text-decoration: none;
     border-radius: 15px;
@@ -173,5 +179,4 @@ border-radius: 15px;
     color: white;
     padding: 1px;
     display: inline-block;
-
 }
